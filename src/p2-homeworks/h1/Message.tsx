@@ -1,5 +1,5 @@
 import React from 'react'
-import './Message.module.css';
+import style from './Message.module.css';
 
 export type MessagePropsType = {
     avatar: string
@@ -11,15 +11,15 @@ export type MessagePropsType = {
 function Message(props: MessagePropsType) {
     return (
         <div>
-            <div className="profile">
-                <div className="profileAvatar">
-                <img src="https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg" alt=""></img>
+            <div className={style.profile}>
+                <div className={style.profileAvatar}>
+                <img src={props.avatar} alt=""></img>
                 </div>
-                <div className="profile__message-box">
-                    <div className="profile__name">{props.name}</div>
-                    <div className="profile__box">
-                    <div className="profile__message">{props.message}</div>
-                    <div className="profile__time">{props.time}</div>
+                <div className={style.profileMessageBox}>
+                    <div className={style.profileName}>{props.name}</div>
+                    <div className={style.profileBox}>
+                    <div className={style.profileMessage}>{props.message}</div>
+                    <div className={style.profileTime}>{props.time}</div>
                     </div>
                 </div>
             </div>

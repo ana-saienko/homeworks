@@ -2,6 +2,7 @@
 .profile {
 	display: flex;
 	align-items: flex-end;
+	margin: 20px;
  }
  /* profile pic */
  
@@ -25,7 +26,7 @@
 		object-fit: cover;
  }
  
- .profile__message-box {
+ .profileMessageBox {
 	margin-left: 15px;
 	background-color: #000;
 	border-radius: 20px;
@@ -36,28 +37,28 @@
 	min-width: 200px;
  }
  
- .profile__name {
+ .profileName {
 	font-size: 18px;
 	margin-bottom: 5px;
  }
  
- .profile__box {
+ .profileBox {
 	display: flex;
 	align-items: flex-end;
 	justify-content: space-between;
  }
  
- .profile__message {
+ .profileMessage {
 	margin-right: 15px;
  }
  
- .profile__time {
+ .profileTime {
 	color: green;
 	font-weight: 600;
  }
  
  
-  .profile__message-box:before {
+  .profileMessageBox:before {
 	  content:"";
 	  position:absolute;
 	  z-index:2;
@@ -68,10 +69,10 @@
 	  border-bottom-right-radius: 16px 14px;
 	  -webkit-transform:translate(0, -2px);
 	}
- .profile__message-box {
+ .profileMessageBox {
 	position: relative;
  }
-	.profile__message-box:after {
+	.profileMessageBox:after {
 	  content:"";
 	  position:absolute;
 	  z-index:3;
