@@ -19,16 +19,16 @@ function Affairs(props: AffairsPropsType) {
     ))
 
     const setAll = () => {
-        props.setFilter(filter: 'all')
+        props.setFilter( 'all')
     } // need to fix
     const setHigh = () => {
-        props.setFilter( filter: 'high')
+        props.setFilter( 'high')
     }
     const setMiddle = () => {
-        props.setFilter( filter: 'middle')
+        props.setFilter( 'middle')
     }
     const setLow = () => {
-        props.setFilter( filter: 'low')
+        props.setFilter( 'low')
     }
 
     return (
