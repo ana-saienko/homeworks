@@ -1,3 +1,47 @@
 .someClass {
 
 }
+
+.affairBox {
+	display: flex;
+	justify-content: space-between;
+
+	width: 300px;
+	padding: 10px;
+	background-color: rgb(231, 221, 221);
+}
+
+.affairName {
+	flex-basis: 40%;
+}
+
+.affairPriority {
+	flex-basis: 20%;
+	font-weight: 700;
+	color: rgb(182, 45, 45);
+}
+
+.affairButton {
+	flex-basis: 10%;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius:  6px;
+	margin: 5px 0;
+}
+
+/* --------------------------------------- */
+
+.affairsContainer {
+	display: flex;
+	justify-content: space-between;
+
+	width: 320px;
+	margin-top: 15px;
+}
+
+.affairBtn {
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius:  6px;
+	margin: 5px 0;
+}
