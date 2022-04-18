@@ -1,7 +1,23 @@
-.someClass {
-
+.greeting {
+    display: flex;
 }
 
 .error {
-    border: 1px solid red;
+    color: red;
+    height: 21px;
+    margin-left: 10px;
+}
+
+.input {
+    height: 21px;
+}
+
+.errorInput {
+    margin: 10px;
+
+    background: #003388;
+    color: #99ff99;
+
+    border: 2px solid red;
+    outline: none;
 }
