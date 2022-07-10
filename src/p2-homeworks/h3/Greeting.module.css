@@ -1,5 +1,6 @@
 .greeting {
     display: flex;
+    align-items: flex-start;
 }
 
 .error {
@@ -8,16 +9,25 @@
     margin-left: 10px;
 }
 
-.input {
-    height: 21px;
+.inputClass {
+    margin: 10px;
+    background: #003300;
+    color: #999999;
+
 }
 
-.errorInput {
-    margin: 10px;
-
-    background: #003388;
-    color: #99ff99;
-
-    border: 2px solid red;
+.inputClass:focus {
     outline: none;
+    border: #99ff99 solid 2px;
+}
+
+.error {
+    margin: 10px;
+    color: darkred;
+    outline: none;
+}
+
+.button,
+.count {
+    margin: 10px;
 }
